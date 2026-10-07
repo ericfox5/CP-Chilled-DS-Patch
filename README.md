@@ -35,8 +35,9 @@ need a dump of the US cartridge, *Club Penguin: Elite Penguin Force* (`CLPE`, 64
 release). The patch checks the file and refuses anything else.
 
 <img src="assets/cp_igloo.png" height="20"> **A CP Chilled account.** Make one at [cpchilled.com](https://cpchilled.com)
-if you haven't. The DS keyboard only has letters and digits, so if your password uses symbols ask in our
-[Discord](https://discord.gg/Q2DpxQBnW) for a *DS password* (a second, letters-only password that only the DS game accepts).
+if you haven't. The DS keyboard only has letters and digits, so the game uses a separate **DS password**: log in at
+[play.cpchilled.com](https://play.cpchilled.com), open **Settings** in the dock and press **Generate DS password**. It is shown
+once (write it down); your normal password keeps working on the website.
 
 <img src="assets/cp_cool.png" height="20"> **An emulator with DS Wi-Fi.** On iPhone and iPad we use
 [JOY](https://apps.apple.com/us/app/joy-multi-system-emulator/id6754980046) from the App Store. On a computer,
@@ -81,7 +82,7 @@ If the page says the ROM doesn't match, your dump isn't the US Rev 2 release; th
    If the game says it can't find a connection, open **Nintendo Wi-Fi Connection Setup**, pick *Connection 1* and
    search for an access point; choose the one the emulator offers, save, and try again.
 4. **Select a Club Penguin Account** → pick an empty slot and type your CP Chilled **username** and **password** (or your
-   DS password). The game remembers the slot, so you only type it once.
+   DS password from Settings). The game remembers the slot, so you only type it once.
 5. You're in. Tap **Upload Coins**, use **+** to pick an amount (steps of 50, up to 2000 per upload, 10,000 per day) and
    confirm with the green check. "Coin upload complete!" means the coins have left the DS and are waiting on the island.
 6. Log in at [play.cpchilled.com](https://play.cpchilled.com). You'll get the coin screen first, then one
@@ -109,7 +110,7 @@ If the page says the ROM doesn't match, your dump isn't the US Rev 2 release; th
 | | |
 |---|---|
 | <img src="assets/cp_mad.png" height="20"> **Error 52xxx / "unable to connect"** | The emulator isn't letting the DS reach the internet. Check its Wi-Fi/network setting (melonDS: Direct mode off) and your phone's connection. |
-| <img src="assets/cp_mad.png" height="20"> **"Login failed"** | Wrong username/password, or your password has characters the DS can't type: get a DS password in Discord. Five failed tries lock the connection for an hour. |
+| <img src="assets/cp_mad.png" height="20"> **"Login failed"** | Wrong username or DS password. Make a new one under Settings on the website. Five failed tries lock the connection for an hour. |
 | <img src="assets/cp_wave.png" height="20"> **Upload Coins shows 0 coins** | You're on the *Guest* profile. Go back and choose *Continue* on your save. |
 | <img src="assets/herbert.png" height="20"> **"Coin upload failed"** | You hit the daily limit (10,000) or the per-upload limit, or the account is banned. The coins stay on your DS. |
 | <img src="assets/cp_lightbulb.png" height="20"> **Download Mission fails** | Known issue with emulated Wi-Fi. The missions are coming another way; ask in Discord. |
@@ -136,7 +137,7 @@ If the page says the ROM doesn't match, your dump isn't the US Rev 2 release; th
 | `assets/` | The icons and animations used on this page, from the CP Chilled Discord. |
 
 Everything the server does with the game's requests is documented in the main CP Chilled project.
-Questions, bugs and DS passwords: [discord.gg/Q2DpxQBnW](https://discord.gg/Q2DpxQBnW).
+Questions and bugs: [discord.gg/Q2DpxQBnW](https://discord.gg/Q2DpxQBnW).
 
 <p align="center"><img src="assets/penguin_woohoo.png" height="40" alt=""></p>
 
